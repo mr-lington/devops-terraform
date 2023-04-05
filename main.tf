@@ -120,7 +120,7 @@ resource "aws_instance" "set14" {
 
 # resource "aws_key_pair" "keypair2" {
 #   key_name   = "keypair2"
-#   public_key = file(" ~/keypair/keypair2.pub") # using absolute path instead of copying the whole public key of key pair
+#   public_key = file("~/keypair/keypair2.pub") # using absolute path instead of copying the whole public key of key pair
 # }
 
 
